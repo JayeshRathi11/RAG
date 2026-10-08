@@ -3,13 +3,11 @@
 .env.*
 !.env.example
 
-# Unnecessary Markdown Documentation (explicitly ignored)
-DOCUMENT_ANALYZER_ARCHITECTURE.md
-DOCUMENT_ANALYZER_INTERVIEW_PREP.md
-SYSTEM_ARCHITECTURE_AND_IMPLEMENTATION.md
-project_summary.md
+# Unrequired / Archived documentation folder
+extra_docs/
+docs_archive/
 
-# Ignore all other markdown files except README.md
+# Markdown files (keep only README.md in repo)
 *.md
 !README.md
 
