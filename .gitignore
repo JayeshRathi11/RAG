@@ -1,0 +1,58 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Unnecessary Markdown Documentation (explicitly ignored)
+DOCUMENT_ANALYZER_ARCHITECTURE.md
+DOCUMENT_ANALYZER_INTERVIEW_PREP.md
+SYSTEM_ARCHITECTURE_AND_IMPLEMENTATION.md
+project_summary.md
+
+# Ignore all other markdown files except README.md
+*.md
+!README.md
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging & distribution
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+
+# Testing & linters
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Large binary / PDF files
+*.pdf
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
